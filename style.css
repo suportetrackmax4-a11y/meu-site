@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+img{
+    width: 300px;
+    height: auto;
+  box-shadow: 5px 3px 5px 5px rgb(43, 19, 19) ;
+  border-radius: 50px 0px 50px 0px;
+  
+}
+
+img {
+    width: 300px;
+    height:auto;
+}
