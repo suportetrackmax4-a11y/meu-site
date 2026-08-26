@@ -1,25 +1,30 @@
-body{
+body {
     background-color: black;
     display: flex;
     justify-content: center; 
     align-items: center;
-    gap: 40;
+    gap: 40px; /* Corrigido: adicionado 'px' */
     min-height: 100vh;
     margin: 0;
-    flex-warp: warp:
+    flex-wrap: wrap; /* Corrigido: escrita da palavra e ponto e vírgula no final */
     padding: 20px;
 }
 
-img{
+img {
     width: 300px;
     height: auto;
-  box-shadow: 5px 3px 5px 5px rgb(43, 19, 19) ;
-  border-radius: 50px 0px 50px 0px;
+    box-shadow: 5px 3px 5px 5px rgb(43, 19, 19);
+    border-radius: 50px 0px 50px 0px;
     max-width: 100%;
-  
 }
 
 a img {
     width: 300px;
-    height:auto;
+    height: auto;
+}
+
+/* Dica extra: Centraliza os textos embaixo das fotos automaticamente */
+a {
+    text-align: center;
+    text-decoration: none; /* Remove sublinhados indesejados nos textos */
 }
