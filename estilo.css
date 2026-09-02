@@ -12,7 +12,7 @@ body {
 
 /* Estilo para a linha divisória */
 .linha-separadora {
-    width: 80%; /* Controla o comprimento da linha na tela */
+    width: 10%; /* Controla o comprimento da linha na tela */
     border: 0;
     border-top: 2px solid #333; /* Cria uma linha sólida cinza escuro */
     margin: 10px 0;
